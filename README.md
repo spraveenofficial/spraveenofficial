@@ -6,7 +6,7 @@
 <p align='center'>
 </p>
 
-![Profile views](https://visitor-badge.glitch.me/badge?page_id=spraveenofficial.spraveenofficial)
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=spraveenofficial&label=Profile%20views&color=0e75b6&style=flat" alt="iutkarsh077" /> </p>
 [![Github](https://img.shields.io/github/followers/spraveenofficial?label=Follow&style=social)](https://github.com/spraveenofficial)
 
 <div size='20px'> Hi! My name is Praveen Kumar Singh. Thank You for taking the time to view my GitHub Profile :smile:
@@ -49,8 +49,8 @@
 <br>
   <br>
 
- ![Aditya's 𝚐𝚒𝚝𝚑𝚞𝚋 𝚐𝚛𝚊𝚙𝚑](https://activity-graph.herokuapp.com/graph?username=spraveenofficial&theme=redical&hide_border=true&area=true)
-| ![Aditya's github stats](https://github-readme-stats.vercel.app/api?username=spraveenofficial&show_icons=true&theme=radical)             | ![Praveen's GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=spraveenofficial&theme=radical)                                                                                                           |
+ ![Praveen's 𝚐𝚒𝚝𝚑𝚞𝚋 𝚐𝚛𝚊𝚙𝚑](https://activity-graph.herokuapp.com/graph?username=spraveenofficial&theme=redical&hide_border=true&area=true)
+| ![Praveen's github stats](https://github-readme-stats.vercel.app/api?username=spraveenofficial&show_icons=true&theme=radical)             | ![Praveen's GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=spraveenofficial&theme=radical)                                                                                                           |
 | --------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=spraveenofficial&langs_count=8&theme=radical&layout=compact) | ![Github Stars](https://github-readme-stats.vercel.app/api?username=spraveenofficial&show_icons=true&locale=en&count_private=true&hide_rank=true&custom_title=My%20GitHub%20Stats&disable_animations=true&theme=radical) |
 
