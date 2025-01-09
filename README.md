@@ -6,7 +6,8 @@
 <p align='center'>
 </p>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=spraveenofficial&label=Profile%20views&color=0e75b6&style=flat" alt="iutkarsh077" /> </p>
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=spraveenofficial&label=Profile%20views&color=0e75b6&style=flat" alt="spraveenofficial" /> </p>
+
 [![Github](https://img.shields.io/github/followers/spraveenofficial?label=Follow&style=social)](https://github.com/spraveenofficial)
 
 <div size='20px'> Hi! My name is Praveen Kumar Singh. Thank You for taking the time to view my GitHub Profile :smile:
