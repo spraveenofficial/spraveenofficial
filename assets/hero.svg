@@ -1,0 +1,203 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="hero-title hero-desc">
+  <title id="hero-title">Praveen Kumar Singh — Full-Stack Developer</title>
+  <desc id="hero-desc">Full-Stack Developer and Builder based in Bengaluru. Animated midnight glass hero card.</desc>
+
+  <style>
+    @keyframes pulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.4; transform: scale(0.96); }
+    }
+    @keyframes scan {
+      0% { transform: translateX(-1200px); }
+      60%, 100% { transform: translateX(1200px); }
+    }
+    @keyframes float {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-8px); }
+    }
+    @keyframes spin {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+    @keyframes cycleText1 {
+      0%, 28% { opacity: 1; transform: translateY(0); }
+      33%, 95% { opacity: 0; transform: translateY(-12px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes cycleText2 {
+      0%, 30% { opacity: 0; transform: translateY(12px); }
+      35%, 62% { opacity: 1; transform: translateY(0); }
+      67%, 100% { opacity: 0; transform: translateY(-12px); }
+    }
+    @keyframes cycleText3 {
+      0%, 64% { opacity: 0; transform: translateY(12px); }
+      69%, 95% { opacity: 1; transform: translateY(0); }
+      100% { opacity: 0; transform: translateY(-12px); }
+    }
+    .text-title {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      font-weight: 800;
+      fill: #ffffff;
+      letter-spacing: -0.5px;
+    }
+    .text-mono {
+      font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+      font-weight: 500;
+    }
+    .text-body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      font-weight: 400;
+      fill: #99b2db;
+    }
+    .pulse-dot {
+      animation: pulse 2s ease-in-out infinite;
+    }
+    .floating-card {
+      animation: float 6s ease-in-out infinite;
+    }
+    .light-sweep {
+      animation: scan 6.5s ease-in-out infinite;
+    }
+    .rotating-orbit {
+      transform-origin: 940px 255px;
+      animation: spin 20s linear infinite;
+    }
+    .role-1 { animation: cycleText1 9s ease-in-out infinite; }
+    .role-2 { animation: cycleText2 9s ease-in-out infinite; }
+    .role-3 { animation: cycleText3 9s ease-in-out infinite; }
+  </style>
+
+  <defs>
+    <linearGradient id="hero-border" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#247bff" stop-opacity="0.8"/>
+      <stop offset="45%" stop-color="#567394" stop-opacity="0.2"/>
+      <stop offset="70%" stop-color="#00f2fe" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#ff354f" stop-opacity="0.75"/>
+    </linearGradient>
+
+    <linearGradient id="hero-card-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d1424" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#070b16" stop-opacity="0.98"/>
+    </linearGradient>
+
+    <radialGradient id="hero-glow-blue" cx="15%" cy="20%" r="60%">
+      <stop offset="0%" stop-color="#247bff" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#247bff" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="hero-glow-red" cx="85%" cy="80%" r="55%">
+      <stop offset="0%" stop-color="#ff354f" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#ff354f" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="avatar-halo" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00f2fe" stop-opacity="0.3"/>
+      <stop offset="70%" stop-color="#247bff" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#247bff" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="sweep-grad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+
+    <pattern id="dot-grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#7ba3d8" opacity="0.12"/>
+    </pattern>
+
+    <clipPath id="hero-clip">
+      <rect x="2" y="2" width="1196" height="516" rx="20"/>
+    </clipPath>
+    <clipPath id="avatar-clip">
+      <circle cx="940" cy="255" r="105"/>
+    </clipPath>
+  </defs>
+
+  <rect x="2" y="2" width="1196" height="516" rx="20" fill="url(#hero-card-bg)" stroke="url(#hero-border)" stroke-width="2"/>
+  
+  <g clip-path="url(#hero-clip)">
+    <rect x="0" y="0" width="1200" height="520" fill="url(#dot-grid)"/>
+    <rect x="0" y="0" width="1200" height="520" fill="url(#hero-glow-blue)"/>
+    <rect x="0" y="0" width="1200" height="520" fill="url(#hero-glow-red)"/>
+    <rect x="0" y="0" width="400" height="520" fill="url(#sweep-grad)" class="light-sweep" transform="skewX(-20)"/>
+
+    <g transform="translate(60, 52)">
+      <text x="0" y="16" class="text-mono" font-size="12" fill="#247bff" letter-spacing="2">01 // THE DEVELOPER MATRIX</text>
+      <g transform="translate(240, 2)">
+        <rect x="0" y="0" width="230" height="24" rx="12" fill="#12233f" stroke="#247bff" stroke-opacity="0.4" stroke-width="1"/>
+        <circle cx="14" cy="12" r="4" fill="#00f2fe" class="pulse-dot"/>
+        <text x="26" y="16" class="text-mono" font-size="10.5" fill="#a5c8ff" letter-spacing="1">OPEN FOR COLLABORATION</text>
+      </g>
+    </g>
+
+    <text x="60" y="132" class="text-title" font-size="46">PRAVEEN KUMAR SINGH</text>
+
+    <g transform="translate(60, 172)">
+      <g class="role-1">
+        <text x="0" y="0" class="text-mono" font-size="17" fill="#00f2fe" letter-spacing="0.5">▸ FULL-STACK DEVELOPER &amp; SOFTWARE BUILDER</text>
+      </g>
+      <g class="role-2">
+        <text x="0" y="0" class="text-mono" font-size="17" fill="#ff354f" letter-spacing="0.5">▸ HRMS ARCHITECTURE &amp; FULL-STACK WEB SYSTEMS</text>
+      </g>
+      <g class="role-3">
+        <text x="0" y="0" class="text-mono" font-size="17" fill="#8bc6ff" letter-spacing="0.5">▸ TYPESCRIPT · REACT · NODE.JS · APIS · TOOLING</text>
+      </g>
+    </g>
+
+    <g transform="translate(60, 215)">
+      <text x="0" y="0" class="text-body" font-size="15" fill="#8e9db9">Building modern, scalable web applications with clean architecture and real-world impact.</text>
+      <text x="0" y="24" class="text-body" font-size="15" fill="#8e9db9">Passionate about full-stack systems, modular UI component design, and open-source tech.</text>
+    </g>
+
+    <g transform="translate(60, 285)">
+      <g transform="translate(0, 0)">
+        <rect x="0" y="0" width="165" height="36" rx="8" fill="#0e1728" stroke="#1f3254" stroke-width="1"/>
+        <text x="14" y="22" class="text-mono" font-size="12" fill="#cadbf7">📍 Bengaluru, India</text>
+      </g>
+      <g transform="translate(177, 0)">
+        <rect x="0" y="0" width="180" height="36" rx="8" fill="#0e1728" stroke="#1f3254" stroke-width="1"/>
+        <text x="14" y="22" class="text-mono" font-size="12" fill="#cadbf7">⚡ Full-Stack Systems</text>
+      </g>
+      <g transform="translate(369, 0)">
+        <rect x="0" y="0" width="185" height="36" rx="8" fill="#0e1728" stroke="#1f3254" stroke-width="1"/>
+        <text x="14" y="22" class="text-mono" font-size="12" fill="#cadbf7">🛠️ Product &amp; UI Builder</text>
+      </g>
+    </g>
+
+    <g transform="translate(60, 355)">
+      <rect x="0" y="0" width="550" height="96" rx="10" fill="#070c17" fill-opacity="0.9" stroke="#192842" stroke-width="1"/>
+      <circle cx="18" cy="18" r="4.5" fill="#ff5f56"/>
+      <circle cx="34" cy="18" r="4.5" fill="#ffbd2e"/>
+      <circle cx="50" cy="18" r="4.5" fill="#27c93f"/>
+      <text x="70" y="22" class="text-mono" font-size="11" fill="#4d6588">spraveen@bengaluru:~$</text>
+
+      <text x="18" y="52" class="text-mono" font-size="12.5" fill="#a5c8ff">
+        <tspan fill="#ff354f">const</tspan> builder = { name: <tspan fill="#00f2fe">&apos;Praveen Kumar Singh&apos;</tspan>, location: <tspan fill="#00f2fe">&apos;BLR&apos;</tspan> };
+      </text>
+      <text x="18" y="76" class="text-mono" font-size="12.5" fill="#8e9db9">
+        <tspan fill="#247bff">&gt;</tspan> Current Focus: <tspan fill="#27c93f">Stamper HRMS</tspan> &amp; <tspan fill="#cadbf7">Scalable APIs</tspan>
+      </text>
+    </g>
+
+    <g class="floating-card">
+      <ellipse cx="940" cy="255" rx="160" ry="160" fill="url(#avatar-halo)"/>
+      <circle cx="940" cy="255" r="140" fill="none" stroke="#247bff" stroke-opacity="0.25" stroke-width="1.5" stroke-dasharray="6 8"/>
+      <circle cx="940" cy="255" r="120" fill="none" stroke="#ff354f" stroke-opacity="0.3" stroke-width="1.5"/>
+
+      <g class="rotating-orbit">
+        <circle cx="940" cy="115" r="5" fill="#00f2fe" filter="drop-shadow(0 0 6px #00f2fe)"/>
+        <circle cx="940" cy="395" r="4" fill="#ff354f" filter="drop-shadow(0 0 6px #ff354f)"/>
+      </g>
+
+      <circle cx="940" cy="255" r="110" fill="#0b1322" stroke="url(#hero-border)" stroke-width="3"/>
+      <image href="https://avatars.githubusercontent.com/u/56352591?v=4" x="835" y="150" width="210" height="210" clip-path="url(#avatar-clip)"/>
+      <circle cx="940" cy="255" r="105" fill="none" stroke="#ffffff" stroke-opacity="0.15" stroke-width="1"/>
+
+      <g transform="translate(1015, 325)">
+        <rect x="0" y="0" width="46" height="24" rx="12" fill="#070d18" stroke="#00f2fe" stroke-width="1.5"/>
+        <text x="23" y="16" class="text-mono" font-size="11" fill="#00f2fe" font-weight="700" text-anchor="middle">PRO</text>
+      </g>
+    </g>
+  </g>
+</svg>

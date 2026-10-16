@@ -1,0 +1,169 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="480" viewBox="0 0 1200 480" role="img" aria-labelledby="about-title about-desc">
+  <title id="about-title">Praveen Kumar Singh — Architecture &amp; Core Domains</title>
+  <desc id="about-desc">Overview of technical focus areas: full-stack systems, UI engineering, and continuous learning.</desc>
+
+  <style>
+    .text-title {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      font-weight: 800;
+      fill: #ffffff;
+      letter-spacing: -0.5px;
+    }
+    .text-mono {
+      font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+      font-weight: 500;
+    }
+    .text-body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      font-weight: 400;
+      fill: #8e9db9;
+      line-height: 1.5;
+    }
+    @keyframes sweep {
+      0% { transform: translateX(-1200px); }
+      60%, 100% { transform: translateX(1200px); }
+    }
+    .light-sweep {
+      animation: sweep 7s ease-in-out infinite;
+    }
+  </style>
+
+  <defs>
+    <linearGradient id="card-border" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#247bff" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#567394" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#ff354f" stop-opacity="0.7"/>
+    </linearGradient>
+
+    <linearGradient id="card-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0c1220" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#070b16" stop-opacity="0.98"/>
+    </linearGradient>
+
+    <linearGradient id="inner-card-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#121b2d" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#090e1a" stop-opacity="0.9"/>
+    </linearGradient>
+
+    <linearGradient id="inner-border-cyan" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#00f2fe" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#247bff" stop-opacity="0.1"/>
+    </linearGradient>
+
+    <linearGradient id="inner-border-red" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ff354f" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#ff8056" stop-opacity="0.1"/>
+    </linearGradient>
+
+    <linearGradient id="inner-border-blue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#247bff" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#8bc6ff" stop-opacity="0.1"/>
+    </linearGradient>
+
+    <pattern id="about-dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.8" fill="#99b1db" opacity="0.12"/>
+    </pattern>
+
+    <clipPath id="about-clip">
+      <rect x="2" y="2" width="1196" height="476" rx="20"/>
+    </clipPath>
+  </defs>
+
+  <rect x="2" y="2" width="1196" height="476" rx="20" fill="url(#card-bg)" stroke="url(#card-border)" stroke-width="2"/>
+
+  <g clip-path="url(#about-clip)">
+    <rect x="0" y="0" width="1200" height="480" fill="url(#about-dots)"/>
+    
+    <!-- Top Header -->
+    <g transform="translate(60, 48)">
+      <text x="0" y="14" class="text-mono" font-size="11.5" fill="#247bff" letter-spacing="2">02 // ARCHITECTURE &amp; FOCUS</text>
+      <text x="0" y="52" class="text-title" font-size="36">SYSTEMS. INTERFACES. CONTINUOUS LEARNING.</text>
+      <text x="0" y="78" class="text-mono" font-size="12" fill="#6c82a5" letter-spacing="1">ENGINEERING END-TO-END DIGITAL PRODUCTS FROM FIRST PRINCIPLES</text>
+    </g>
+
+    <!-- 3 Core Domains Cards -->
+    <!-- Card 1: Full-Stack & Systems -->
+    <g transform="translate(60, 160)">
+      <rect x="0" y="0" width="340" height="260" rx="14" fill="url(#inner-card-bg)" stroke="url(#inner-border-cyan)" stroke-width="1.5"/>
+      <g transform="translate(26, 32)">
+        <text x="0" y="0" class="text-mono" font-size="12" fill="#00f2fe" letter-spacing="1.5">01 / ARCHITECTURE</text>
+        <text x="0" y="28" class="text-title" font-size="20">Full-Stack &amp; Systems</text>
+        
+        <text x="0" y="64" class="text-body" font-size="13.5">
+          <tspan x="0" dy="0">Specializing in robust Node.js and</tspan>
+          <tspan x="0" dy="20">TypeScript backends, REST APIs,</tspan>
+          <tspan x="0" dy="20">and database schemas. Architect of</tspan>
+          <tspan x="0" dy="20">Stamper HRMS enterprise APIs.</tspan>
+        </text>
+
+        <!-- Tech tags -->
+        <g transform="translate(0, 160)">
+          <rect x="0" y="0" width="85" height="24" rx="6" fill="#08172b" stroke="#1b3354" stroke-width="1"/>
+          <text x="42.5" y="16" class="text-mono" font-size="10.5" fill="#a5c8ff" text-anchor="middle">TypeScript</text>
+
+          <rect x="95" y="0" width="65" height="24" rx="6" fill="#08172b" stroke="#1b3354" stroke-width="1"/>
+          <text x="127.5" y="16" class="text-mono" font-size="10.5" fill="#a5c8ff" text-anchor="middle">Node.js</text>
+
+          <rect x="170" y="0" width="55" height="24" rx="6" fill="#08172b" stroke="#1b3354" stroke-width="1"/>
+          <text x="197.5" y="16" class="text-mono" font-size="10.5" fill="#a5c8ff" text-anchor="middle">APIs</text>
+        </g>
+      </g>
+    </g>
+
+    <!-- Card 2: Frontend & UI Systems -->
+    <g transform="translate(430, 160)">
+      <rect x="0" y="0" width="340" height="260" rx="14" fill="url(#inner-card-bg)" stroke="url(#inner-border-red)" stroke-width="1.5"/>
+      <g transform="translate(26, 32)">
+        <text x="0" y="0" class="text-mono" font-size="12" fill="#ff354f" letter-spacing="1.5">02 / INTERFACES</text>
+        <text x="0" y="28" class="text-title" font-size="20">UI &amp; Frontend Craft</text>
+        
+        <text x="0" y="64" class="text-body" font-size="13.5">
+          <tspan x="0" dy="0">Creating modular UI component</tspan>
+          <tspan x="0" dy="20">libraries (Componently), dynamic</tspan>
+          <tspan x="0" dy="20">spreadsheets, and fast interactive</tspan>
+          <tspan x="0" dy="20">applications in React &amp; CSS.</tspan>
+        </text>
+
+        <!-- Tech tags -->
+        <g transform="translate(0, 160)">
+          <rect x="0" y="0" width="60" height="24" rx="6" fill="#1f1118" stroke="#481a25" stroke-width="1"/>
+          <text x="30" y="16" class="text-mono" font-size="10.5" fill="#ff99a8" text-anchor="middle">React</text>
+
+          <rect x="70" y="0" width="60" height="24" rx="6" fill="#1f1118" stroke="#481a25" stroke-width="1"/>
+          <text x="100" y="16" class="text-mono" font-size="10.5" fill="#ff99a8" text-anchor="middle">Redux</text>
+
+          <rect x="140" y="0" width="90" height="24" rx="6" fill="#1f1118" stroke="#481a25" stroke-width="1"/>
+          <text x="185" y="16" class="text-mono" font-size="10.5" fill="#ff99a8" text-anchor="middle">UI Libraries</text>
+        </g>
+      </g>
+    </g>
+
+    <!-- Card 3: Beyond Work / Exploration -->
+    <g transform="translate(800, 160)">
+      <rect x="0" y="0" width="340" height="260" rx="14" fill="url(#inner-card-bg)" stroke="url(#inner-border-blue)" stroke-width="1.5"/>
+      <g transform="translate(26, 32)">
+        <text x="0" y="0" class="text-mono" font-size="12" fill="#8bc6ff" letter-spacing="1.5">03 / EVOLUTION</text>
+        <text x="0" y="28" class="text-title" font-size="20">Writing &amp; Research</text>
+        
+        <text x="0" y="64" class="text-body" font-size="13.5">
+          <tspan x="0" dy="0">Self-taught programmer journey.</tspan>
+          <tspan x="0" dy="20">Authoring tech articles on Medium,</tspan>
+          <tspan x="0" dy="20">collaborating on open-source, and</tspan>
+          <tspan x="0" dy="20">exploring ML tooling &amp; PyTorch.</tspan>
+        </text>
+
+        <!-- Tech tags -->
+        <g transform="translate(0, 160)">
+          <rect x="0" y="0" width="85" height="24" rx="6" fill="#08172b" stroke="#1b3354" stroke-width="1"/>
+          <text x="42.5" y="16" class="text-mono" font-size="10.5" fill="#a5c8ff" text-anchor="middle">Articles</text>
+
+          <rect x="95" y="0" width="70" height="24" rx="6" fill="#08172b" stroke="#1b3354" stroke-width="1"/>
+          <text x="130" y="16" class="text-mono" font-size="10.5" fill="#a5c8ff" text-anchor="middle">PyTorch</text>
+
+          <rect x="175" y="0" width="90" height="24" rx="6" fill="#08172b" stroke="#1b3354" stroke-width="1"/>
+          <text x="220" y="16" class="text-mono" font-size="10.5" fill="#a5c8ff" text-anchor="middle">Open Source</text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

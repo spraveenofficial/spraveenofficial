@@ -1,0 +1,222 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="660" viewBox="0 0 1200 660" role="img" aria-labelledby="stack-title stack-desc">
+  <title id="stack-title">Praveen Kumar Singh — My Engine Room</title>
+  <desc id="stack-desc">Orbital stack overview: TypeScript, JavaScript, Python, React, Node.js, C++, and database tooling.</desc>
+
+  <style>
+    .text-title {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      font-weight: 800;
+      fill: #ffffff;
+      letter-spacing: -0.5px;
+    }
+    .text-mono {
+      font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+      font-weight: 500;
+    }
+    .text-body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      font-weight: 400;
+      fill: #8e9db9;
+    }
+    @keyframes orbitPulse {
+      0%, 100% { stroke-opacity: 0.45; }
+      50% { stroke-opacity: 0.15; }
+    }
+    @keyframes dashCycle {
+      0% { stroke-dashoffset: 0; }
+      100% { stroke-dashoffset: -1200; }
+    }
+    .orbit-pulse {
+      animation: orbitPulse 4s ease-in-out infinite;
+    }
+    .orbit-stream {
+      animation: dashCycle 14s linear infinite;
+    }
+    .orbit-stream-rev {
+      animation: dashCycle 18s linear infinite reverse;
+    }
+  </style>
+
+  <defs>
+    <linearGradient id="stack-border" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#247bff" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#567394" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#ff354f" stop-opacity="0.75"/>
+    </linearGradient>
+
+    <linearGradient id="stack-card-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0c1220" stop-opacity="0.96"/>
+      <stop offset="100%" stop-color="#070b16" stop-opacity="0.98"/>
+    </linearGradient>
+
+    <radialGradient id="stack-halo" cx="240" cy="400" r="280">
+      <stop offset="0%" stop-color="#247bff" stop-opacity="0.28"/>
+      <stop offset="70%" stop-color="#00f2fe" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#247bff" stop-opacity="0"/>
+    </radialGradient>
+
+    <pattern id="stack-dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="0.9" fill="#99b1db" opacity="0.12"/>
+    </pattern>
+
+    <clipPath id="stack-clip">
+      <rect x="2" y="2" width="1196" height="656" rx="20"/>
+    </clipPath>
+  </defs>
+
+  <rect x="2" y="2" width="1196" height="656" rx="20" fill="url(#stack-card-bg)" stroke="url(#stack-border)" stroke-width="2"/>
+
+  <g clip-path="url(#stack-clip)">
+    <rect x="0" y="0" width="1200" height="660" fill="url(#stack-dots)"/>
+    <rect x="0" y="0" width="1200" height="660" fill="url(#stack-halo)"/>
+
+    <!-- Header Section -->
+    <g transform="translate(60, 48)">
+      <text x="0" y="14" class="text-mono" font-size="11.5" fill="#247bff" letter-spacing="2">03 // MY ENGINE ROOM</text>
+      <text x="0" y="52" class="text-title" font-size="36">TOOLS CHANGE. CURIOSITY DOESN&apos;T.</text>
+      <text x="0" y="78" class="text-mono" font-size="12" fill="#6c82a5" letter-spacing="1">LANGUAGES / FRAMEWORKS / DATABASES / CLOUD &amp; AI</text>
+    </g>
+
+    <!-- Left: Orbital Rings Visualization -->
+    <g transform="translate(230, 395)">
+      <!-- Outer Orbit -->
+      <ellipse cx="0" cy="0" rx="190" ry="140" fill="none" stroke="#247bff" stroke-width="1.5" class="orbit-pulse"/>
+      <ellipse cx="0" cy="0" rx="190" ry="140" fill="none" stroke="#00f2fe" stroke-width="2.5" stroke-dasharray="60 400" class="orbit-stream"/>
+
+      <!-- Mid Orbit -->
+      <ellipse cx="0" cy="0" rx="145" ry="105" fill="none" stroke="#ff354f" stroke-opacity="0.3" stroke-width="1.5"/>
+      <ellipse cx="0" cy="0" rx="145" ry="105" fill="none" stroke="#ff354f" stroke-width="2" stroke-dasharray="45 320" class="orbit-stream-rev"/>
+
+      <!-- Inner Orbit -->
+      <ellipse cx="0" cy="0" rx="100" ry="70" fill="none" stroke="#00f2fe" stroke-opacity="0.25" stroke-width="1.2"/>
+
+      <!-- Core Hub -->
+      <circle cx="0" cy="0" r="48" fill="#0d192f" stroke="#247bff" stroke-width="2"/>
+      <circle cx="0" cy="0" r="40" fill="#081020" stroke="#00f2fe" stroke-opacity="0.3" stroke-width="1"/>
+      <text x="0" y="-4" class="text-mono" font-size="11" fill="#00f2fe" font-weight="700" text-anchor="middle">SYSTEMS</text>
+      <text x="0" y="12" class="text-mono" font-size="9" fill="#8e9db9" text-anchor="middle">CORE</text>
+    </g>
+
+    <!-- Right: Structured Tech Stack Matrix -->
+    <!-- Category 1: Languages -->
+    <g transform="translate(490, 160)">
+      <rect x="0" y="0" width="650" height="100" rx="12" fill="#09101d" fill-opacity="0.9" stroke="#1d2d48" stroke-width="1.2"/>
+      <g transform="translate(24, 26)">
+        <text x="0" y="0" class="text-mono" font-size="11.5" fill="#00f2fe" letter-spacing="1.5">CORE LANGUAGES</text>
+        <g transform="translate(0, 16)">
+          <!-- Badges -->
+          <g transform="translate(0, 0)">
+            <rect width="115" height="32" rx="6" fill="#132139" stroke="#2a4570" stroke-width="1"/>
+            <text x="57.5" y="20" class="text-mono" font-size="12" fill="#e0eeff" text-anchor="middle">TypeScript</text>
+          </g>
+          <g transform="translate(125, 0)">
+            <rect width="115" height="32" rx="6" fill="#132139" stroke="#2a4570" stroke-width="1"/>
+            <text x="57.5" y="20" class="text-mono" font-size="12" fill="#e0eeff" text-anchor="middle">JavaScript</text>
+          </g>
+          <g transform="translate(250, 0)">
+            <rect width="90" height="32" rx="6" fill="#132139" stroke="#2a4570" stroke-width="1"/>
+            <text x="45" y="20" class="text-mono" font-size="12" fill="#e0eeff" text-anchor="middle">Python</text>
+          </g>
+          <g transform="translate(350, 0)">
+            <rect width="70" height="32" rx="6" fill="#132139" stroke="#2a4570" stroke-width="1"/>
+            <text x="35" y="20" class="text-mono" font-size="12" fill="#e0eeff" text-anchor="middle">C / C++</text>
+          </g>
+          <g transform="translate(430, 0)">
+            <rect width="115" height="32" rx="6" fill="#132139" stroke="#2a4570" stroke-width="1"/>
+            <text x="57.5" y="20" class="text-mono" font-size="12" fill="#e0eeff" text-anchor="middle">HTML5 / CSS3</text>
+          </g>
+        </g>
+      </g>
+    </g>
+
+    <!-- Category 2: Frontend & UI -->
+    <g transform="translate(490, 275)">
+      <rect x="0" y="0" width="650" height="100" rx="12" fill="#09101d" fill-opacity="0.9" stroke="#1d2d48" stroke-width="1.2"/>
+      <g transform="translate(24, 26)">
+        <text x="0" y="0" class="text-mono" font-size="11.5" fill="#ff354f" letter-spacing="1.5">FRONTEND &amp; UI SYSTEMS</text>
+        <g transform="translate(0, 16)">
+          <g transform="translate(0, 0)">
+            <rect width="90" height="32" rx="6" fill="#1f1118" stroke="#4a1c27" stroke-width="1"/>
+            <text x="45" y="20" class="text-mono" font-size="12" fill="#ffd4dc" text-anchor="middle">React.js</text>
+          </g>
+          <g transform="translate(100, 0)">
+            <rect width="85" height="32" rx="6" fill="#1f1118" stroke="#4a1c27" stroke-width="1"/>
+            <text x="42.5" y="20" class="text-mono" font-size="12" fill="#ffd4dc" text-anchor="middle">Next.js</text>
+          </g>
+          <g transform="translate(195, 0)">
+            <rect width="80" height="32" rx="6" fill="#1f1118" stroke="#4a1c27" stroke-width="1"/>
+            <text x="40" y="20" class="text-mono" font-size="12" fill="#ffd4dc" text-anchor="middle">Redux</text>
+          </g>
+          <g transform="translate(285, 0)">
+            <rect width="130" height="32" rx="6" fill="#1f1118" stroke="#4a1c27" stroke-width="1"/>
+            <text x="65" y="20" class="text-mono" font-size="12" fill="#ffd4dc" text-anchor="middle">CSS Frameworks</text>
+          </g>
+          <g transform="translate(425, 0)">
+            <rect width="125" height="32" rx="6" fill="#1f1118" stroke="#4a1c27" stroke-width="1"/>
+            <text x="62.5" y="20" class="text-mono" font-size="12" fill="#ffd4dc" text-anchor="middle">Tailwind &amp; SCSS</text>
+          </g>
+        </g>
+      </g>
+    </g>
+
+    <!-- Category 3: Backend & Databases -->
+    <g transform="translate(490, 390)">
+      <rect x="0" y="0" width="650" height="100" rx="12" fill="#09101d" fill-opacity="0.9" stroke="#1d2d48" stroke-width="1.2"/>
+      <g transform="translate(24, 26)">
+        <text x="0" y="0" class="text-mono" font-size="11.5" fill="#247bff" letter-spacing="1.5">BACKEND ARCHITECTURE &amp; DATA</text>
+        <g transform="translate(0, 16)">
+          <g transform="translate(0, 0)">
+            <rect width="90" height="32" rx="6" fill="#0f1f38" stroke="#1d3d6e" stroke-width="1"/>
+            <text x="45" y="20" class="text-mono" font-size="12" fill="#c7e1ff" text-anchor="middle">Node.js</text>
+          </g>
+          <g transform="translate(100, 0)">
+            <rect width="90" height="32" rx="6" fill="#0f1f38" stroke="#1d3d6e" stroke-width="1"/>
+            <text x="45" y="20" class="text-mono" font-size="12" fill="#c7e1ff" text-anchor="middle">Express</text>
+          </g>
+          <g transform="translate(200, 0)">
+            <rect width="115" height="32" rx="6" fill="#0f1f38" stroke="#1d3d6e" stroke-width="1"/>
+            <text x="57.5" y="20" class="text-mono" font-size="12" fill="#c7e1ff" text-anchor="middle">RESTful APIs</text>
+          </g>
+          <g transform="translate(325, 0)">
+            <rect width="85" height="32" rx="6" fill="#0f1f38" stroke="#1d3d6e" stroke-width="1"/>
+            <text x="42.5" y="20" class="text-mono" font-size="12" fill="#c7e1ff" text-anchor="middle">SQLite</text>
+          </g>
+          <g transform="translate(420, 0)">
+            <rect width="115" height="32" rx="6" fill="#0f1f38" stroke="#1d3d6e" stroke-width="1"/>
+            <text x="57.5" y="20" class="text-mono" font-size="12" fill="#c7e1ff" text-anchor="middle">System Design</text>
+          </g>
+        </g>
+      </g>
+    </g>
+
+    <!-- Category 4: AI & Tooling -->
+    <g transform="translate(490, 505)">
+      <rect x="0" y="0" width="650" height="100" rx="12" fill="#09101d" fill-opacity="0.9" stroke="#1d2d48" stroke-width="1.2"/>
+      <g transform="translate(24, 26)">
+        <text x="0" y="0" class="text-mono" font-size="11.5" fill="#8bc6ff" letter-spacing="1.5">AI / ML &amp; DEPLOYMENT</text>
+        <g transform="translate(0, 16)">
+          <g transform="translate(0, 0)">
+            <rect width="90" height="32" rx="6" fill="#132338" stroke="#25436a" stroke-width="1"/>
+            <text x="45" y="20" class="text-mono" font-size="12" fill="#d9ebff" text-anchor="middle">PyTorch</text>
+          </g>
+          <g transform="translate(100, 0)">
+            <rect width="115" height="32" rx="6" fill="#132338" stroke="#25436a" stroke-width="1"/>
+            <text x="57.5" y="20" class="text-mono" font-size="12" fill="#d9ebff" text-anchor="middle">Scikit-learn</text>
+          </g>
+          <g transform="translate(225, 0)">
+            <rect width="125" height="32" rx="6" fill="#132338" stroke="#25436a" stroke-width="1"/>
+            <text x="62.5" y="20" class="text-mono" font-size="12" fill="#d9ebff" text-anchor="middle">Git &amp; GitHub</text>
+          </g>
+          <g transform="translate(360, 0)">
+            <rect width="80" height="32" rx="6" fill="#132338" stroke="#25436a" stroke-width="1"/>
+            <text x="40" y="20" class="text-mono" font-size="12" fill="#d9ebff" text-anchor="middle">Vercel</text>
+          </g>
+          <g transform="translate(450, 0)">
+            <rect width="80" height="32" rx="6" fill="#132338" stroke="#25436a" stroke-width="1"/>
+            <text x="40" y="20" class="text-mono" font-size="12" fill="#d9ebff" text-anchor="middle">Netlify</text>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

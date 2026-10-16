@@ -1,0 +1,232 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="580" viewBox="0 0 1200 580" role="img" aria-labelledby="id-title id-desc">
+  <title id="id-title">Praveen Kumar Singh — Builder ID &amp; Dashboard</title>
+  <desc id="id-desc">Public telemetry and verified developer pass: 52+ public repos, 37+ followers.</desc>
+
+  <style>
+    .text-title {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      font-weight: 800;
+      fill: #ffffff;
+      letter-spacing: -0.5px;
+    }
+    .text-mono {
+      font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+      font-weight: 500;
+    }
+    .text-body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      font-weight: 400;
+      fill: #8e9db9;
+    }
+    @keyframes swingBadge {
+      0%, 100% { transform: rotate(-1.5deg); }
+      50% { transform: rotate(1.5deg); }
+    }
+    .badge-swing {
+      transform-origin: 220px 20px;
+      animation: swingBadge 6s ease-in-out infinite;
+    }
+    @keyframes pulseLed {
+      0%, 100% { fill: #00f2fe; filter: drop-shadow(0 0 8px #00f2fe); }
+      50% { fill: #0d4b68; filter: none; }
+    }
+    .led-glow {
+      animation: pulseLed 2.2s ease-in-out infinite;
+    }
+  </style>
+
+  <defs>
+    <linearGradient id="id-border" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#247bff" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#567394" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#ff354f" stop-opacity="0.7"/>
+    </linearGradient>
+
+    <linearGradient id="id-card-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0c1220" stop-opacity="0.96"/>
+      <stop offset="100%" stop-color="#070b16" stop-opacity="0.98"/>
+    </linearGradient>
+
+    <linearGradient id="pass-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#14213d"/>
+      <stop offset="100%" stop-color="#090e1a"/>
+    </linearGradient>
+
+    <pattern id="id-dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.8" fill="#99b1db" opacity="0.12"/>
+    </pattern>
+
+    <clipPath id="id-clip">
+      <rect x="2" y="2" width="1196" height="576" rx="20"/>
+    </clipPath>
+    <clipPath id="badge-photo-clip">
+      <rect x="0" y="0" width="110" height="110" rx="10"/>
+    </clipPath>
+  </defs>
+
+  <rect x="2" y="2" width="1196" height="576" rx="20" fill="url(#id-card-bg)" stroke="url(#id-border)" stroke-width="2"/>
+
+  <g clip-path="url(#id-clip)">
+    <rect x="0" y="0" width="1200" height="580" fill="url(#id-dots)"/>
+
+    <!-- Left: Virtual Swinging Developer ID Badge -->
+    <g class="badge-swing">
+      <!-- Lanyard Cord -->
+      <path d="M220 0 L220 55" stroke="#1d2d48" stroke-width="12" stroke-linecap="round"/>
+      <path d="M220 0 L220 55" stroke="#247bff" stroke-width="3" stroke-linecap="round"/>
+
+      <!-- Metal Clip -->
+      <rect x="206" y="55" width="28" height="18" rx="4" fill="#324463" stroke="#5f7aa6" stroke-width="1"/>
+      <ellipse cx="220" cy="73" rx="7" ry="5" fill="#141f33" stroke="#5f7aa6" stroke-width="1.5"/>
+
+      <!-- ID Pass Body -->
+      <g transform="translate(65, 85)">
+        <rect x="0" y="0" width="310" height="440" rx="16" fill="url(#pass-bg)" stroke="#247bff" stroke-width="2" filter="drop-shadow(0 15px 30px rgba(0,0,0,0.7))"/>
+        
+        <!-- Badge Lanyard Slot -->
+        <rect x="135" y="10" width="40" height="8" rx="4" fill="#070b16"/>
+
+        <!-- Pass Header -->
+        <text x="25" y="44" class="text-mono" font-size="10" fill="#00f2fe" letter-spacing="2">DEV ID // ACCESS PASS</text>
+        <circle cx="285" cy="40" r="5" class="led-glow"/>
+
+        <!-- Photo & Info Row -->
+        <g transform="translate(25, 62)">
+          <!-- Photo Box -->
+          <g transform="translate(0, 0)">
+            <rect x="0" y="0" width="110" height="110" rx="10" fill="#080e1a" stroke="#247bff" stroke-width="1.5"/>
+            <image href="https://avatars.githubusercontent.com/u/56352591?v=4" x="0" y="0" width="110" height="110" clip-path="url(#badge-photo-clip)"/>
+          </g>
+
+          <!-- Side Meta -->
+          <g transform="translate(125, 16)">
+            <text x="0" y="0" class="text-mono" font-size="9" fill="#6c82a5">STATUS</text>
+            <text x="0" y="16" class="text-mono" font-size="12" fill="#27c93f" font-weight="700">VERIFIED</text>
+
+            <text x="0" y="42" class="text-mono" font-size="9" fill="#6c82a5">ROLE</text>
+            <text x="0" y="58" class="text-mono" font-size="11.5" fill="#cadbf7">ENGINEER</text>
+
+            <text x="0" y="82" class="text-mono" font-size="9" fill="#6c82a5">CITY</text>
+            <text x="0" y="98" class="text-mono" font-size="11.5" fill="#cadbf7">BLR, IN</text>
+          </g>
+        </g>
+
+        <!-- Name & Title -->
+        <g transform="translate(25, 205)">
+          <text x="0" y="0" class="text-title" font-size="18">Praveen Kumar Singh</text>
+          <text x="0" y="20" class="text-mono" font-size="11" fill="#8bc6ff">@spraveenofficial</text>
+        </g>
+
+        <!-- Divider Line -->
+        <line x1="25" y1="245" x2="285" y2="245" stroke="#1d2d48" stroke-width="1"/>
+
+        <!-- Details Grid -->
+        <g transform="translate(25, 268)">
+          <text x="0" y="0" class="text-mono" font-size="9" fill="#6c82a5">ID NO.</text>
+          <text x="0" y="16" class="text-mono" font-size="11.5" fill="#e0eeff">56352591</text>
+
+          <text x="140" y="0" class="text-mono" font-size="9" fill="#6c82a5">MEMBER SINCE</text>
+          <text x="140" y="16" class="text-mono" font-size="11.5" fill="#e0eeff">OCT 2019</text>
+
+          <text x="0" y="42" class="text-mono" font-size="9" fill="#6c82a5">LOCATION</text>
+          <text x="0" y="58" class="text-mono" font-size="11.5" fill="#e0eeff">BENGALURU</text>
+
+          <text x="140" y="42" class="text-mono" font-size="9" fill="#6c82a5">SPECIALTY</text>
+          <text x="140" y="58" class="text-mono" font-size="11.5" fill="#e0eeff">FULL-STACK</text>
+        </g>
+
+        <!-- Barcode Graphic -->
+        <g transform="translate(25, 360)">
+          <rect x="0" y="0" width="4" height="34" fill="#6c82a5"/>
+          <rect x="7" y="0" width="2" height="34" fill="#6c82a5"/>
+          <rect x="12" y="0" width="6" height="34" fill="#6c82a5"/>
+          <rect x="21" y="0" width="3" height="34" fill="#6c82a5"/>
+          <rect x="27" y="0" width="8" height="34" fill="#6c82a5"/>
+          <rect x="38" y="0" width="2" height="34" fill="#6c82a5"/>
+          <rect x="44" y="0" width="5" height="34" fill="#6c82a5"/>
+          <rect x="52" y="0" width="2" height="34" fill="#6c82a5"/>
+          <rect x="58" y="0" width="7" height="34" fill="#6c82a5"/>
+          <rect x="68" y="0" width="3" height="34" fill="#6c82a5"/>
+          <rect x="74" y="0" width="2" height="34" fill="#6c82a5"/>
+          <rect x="80" y="0" width="8" height="34" fill="#6c82a5"/>
+          <rect x="92" y="0" width="4" height="34" fill="#6c82a5"/>
+          <rect x="99" y="0" width="6" height="34" fill="#6c82a5"/>
+          <rect x="108" y="0" width="3" height="34" fill="#6c82a5"/>
+          <rect x="115" y="0" width="7" height="34" fill="#6c82a5"/>
+          <rect x="126" y="0" width="2" height="34" fill="#6c82a5"/>
+          <rect x="132" y="0" width="5" height="34" fill="#6c82a5"/>
+          <rect x="140" y="0" width="4" height="34" fill="#6c82a5"/>
+          <rect x="148" y="0" width="8" height="34" fill="#6c82a5"/>
+          <rect x="160" y="0" width="2" height="34" fill="#6c82a5"/>
+          <rect x="166" y="0" width="6" height="34" fill="#6c82a5"/>
+          <rect x="176" y="0" width="3" height="34" fill="#6c82a5"/>
+          <rect x="183" y="0" width="7" height="34" fill="#6c82a5"/>
+          <rect x="194" y="0" width="4" height="34" fill="#6c82a5"/>
+          <rect x="202" y="0" width="2" height="34" fill="#6c82a5"/>
+          <rect x="208" y="0" width="8" height="34" fill="#6c82a5"/>
+          <rect x="220" y="0" width="3" height="34" fill="#6c82a5"/>
+          <rect x="226" y="0" width="6" height="34" fill="#6c82a5"/>
+          <rect x="236" y="0" width="4" height="34" fill="#6c82a5"/>
+          <rect x="244" y="0" width="8" height="34" fill="#6c82a5"/>
+          <rect x="255" y="0" width="5" height="34" fill="#6c82a5"/>
+          <text x="130" y="48" class="text-mono" font-size="9" fill="#4a5f7d" text-anchor="middle" letter-spacing="3">spraveenofficial-pass-auth</text>
+        </g>
+      </g>
+    </g>
+
+    <!-- Right: Telemetry Dashboard -->
+    <g transform="translate(440, 48)">
+      <text x="0" y="14" class="text-mono" font-size="11.5" fill="#247bff" letter-spacing="2">04 // PUBLIC TELEMETRY &amp; METRICS</text>
+      <text x="0" y="52" class="text-title" font-size="36">BUILDER STATS DASHBOARD</text>
+      <text x="0" y="78" class="text-mono" font-size="12" fill="#6c82a5" letter-spacing="1">CONTINUOUS COMMITMENT · PRODUCTION REPOSITORIES</text>
+
+      <!-- 4 Telemetry Metrics Cards -->
+      <!-- Metric 1: Public Repos -->
+      <g transform="translate(0, 110)">
+        <rect x="0" y="0" width="335" height="150" rx="14" fill="#09101d" fill-opacity="0.9" stroke="#1d2d48" stroke-width="1.5"/>
+        <g transform="translate(24, 30)">
+          <text x="0" y="0" class="text-mono" font-size="11" fill="#00f2fe" letter-spacing="1.5">PUBLIC REPOSITORIES</text>
+          <text x="0" y="46" class="text-title" font-size="44" fill="#ffffff">52+</text>
+          <text x="0" y="80" class="text-body" font-size="13">HRMS, UI libraries, full-stack web apps</text>
+        </g>
+      </g>
+
+      <!-- Metric 2: Followers -->
+      <g transform="translate(365, 110)">
+        <rect x="0" y="0" width="335" height="150" rx="14" fill="#09101d" fill-opacity="0.9" stroke="#1d2d48" stroke-width="1.5"/>
+        <g transform="translate(24, 30)">
+          <text x="0" y="0" class="text-mono" font-size="11" fill="#ff354f" letter-spacing="1.5">COMMUNITY DEVELOPERS</text>
+          <text x="0" y="46" class="text-title" font-size="44" fill="#ffffff">37+</text>
+          <text x="0" y="80" class="text-body" font-size="13">Developers &amp; peers following progress</text>
+        </g>
+      </g>
+
+      <!-- Metric 3: Journey -->
+      <g transform="translate(0, 280)">
+        <rect x="0" y="0" width="335" height="150" rx="14" fill="#09101d" fill-opacity="0.9" stroke="#1d2d48" stroke-width="1.5"/>
+        <g transform="translate(24, 30)">
+          <text x="0" y="0" class="text-mono" font-size="11" fill="#8bc6ff" letter-spacing="1.5">SELF-TAUGHT CRAFT</text>
+          <text x="0" y="46" class="text-title" font-size="44" fill="#ffffff">100%</text>
+          <text x="0" y="80" class="text-body" font-size="13">Dedication, discipline &amp; relentless curiosity</text>
+        </g>
+      </g>
+
+      <!-- Metric 4: Hub Location -->
+      <g transform="translate(365, 280)">
+        <rect x="0" y="0" width="335" height="150" rx="14" fill="#09101d" fill-opacity="0.9" stroke="#1d2d48" stroke-width="1.5"/>
+        <g transform="translate(24, 30)">
+          <text x="0" y="0" class="text-mono" font-size="11" fill="#247bff" letter-spacing="1.5">DEVELOPER ECOSYSTEM</text>
+          <text x="0" y="46" class="text-title" font-size="38" fill="#ffffff">Bengaluru</text>
+          <text x="0" y="80" class="text-body" font-size="13">India&apos;s leading tech and startup capital</text>
+        </g>
+      </g>
+
+      <!-- Telemetry Bottom Bar -->
+      <g transform="translate(0, 452)">
+        <rect x="0" y="0" width="700" height="34" rx="8" fill="#070c17" stroke="#192842" stroke-width="1"/>
+        <circle cx="16" cy="17" r="4" fill="#27c93f" class="led-glow"/>
+        <text x="30" y="21" class="text-mono" font-size="10.5" fill="#a5c8ff" letter-spacing="1">SNAPSHOT OCT 2026 // STATUS: SHIPPING CLEAN CODE // GITHUB @spraveenofficial</text>
+      </g>
+    </g>
+  </g>
+</svg>
